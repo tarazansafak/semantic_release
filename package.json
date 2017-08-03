@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "des",
   "main": "index.js",
-  "scripts": {
-    "start": "webpack"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/tarazansafak/semantic_release.git"
