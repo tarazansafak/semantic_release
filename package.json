@@ -1,6 +1,6 @@
 {
   "name": "semantic_release",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "des",
   "main": "index.js",
   "repository": {
@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "scripts": {
-    "lan": "node_modules/.bin/semantic-release post"
+    "lan": "node_modules/.bin/semantic-release pre"
   },
   "release": {
     "debug": true,
