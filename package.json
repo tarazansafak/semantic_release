@@ -1,6 +1,6 @@
 {
   "name": "semantic_release",
-  "version": "1.0.0",
+  "version": "1.8.0",
   "description": "des",
   "main": "index.js",
   "repository": {
@@ -10,13 +10,12 @@
   "author": "",
   "license": "ISC",
   "scripts": {
-    "lan": "node_modules/.bin/semantic-release pre"
+    "lan": "node_modules/.bin/semantic-release pre && npm publish && node_modules/.bin/semantic-release post"
   },
   "release": {
-    "debug": true,
-    "githubToken": "63cc2a70b9d6ffb6a87a3d5a10deb22382e3493d",
-    "githubUrl":"https://github.com"
-
+    "debug": false,
+    "githubToken": "8456ea13b583c333ae651fd5f5cf86b4c8421255",
+    "githubUrl": "api.github.com"
   },
   "publishConfig": {
     "registry": "https://safaktarazan.jfrog.io/safaktarazan/api/npm/local_registry/"
